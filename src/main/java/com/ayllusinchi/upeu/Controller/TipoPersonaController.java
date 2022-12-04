@@ -21,13 +21,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author etham
+ * 
  */
-//a
+
 @CrossOrigin(origins = {"http://localhost:4200"})
 @RestController
 @RequestMapping("/tipopersonas")
-@Api(value = "Microservicio de Gestion de los tipo de personas", description = "Microservicio de Gestion de los tipo de personas")
+@Api(value = "Microservicio de Gestion de tipo de personas", description = "Microservicio de Gestion de tipo de personas")
 public class TipoPersonaController {
     
     @Autowired
